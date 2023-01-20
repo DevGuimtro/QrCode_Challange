@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(212, 45%, 89%);
+  /* font-size: 1rem; */
+  min-height: 100vh;
+}
+
+.container {
+  margin: 16.7rem auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 20px;
+  padding: 0.8rem;
+  max-width: 280px;
+}
+
+.qrCodeCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.qrCodeImage {
+  max-width: 250px;
+  min-height: 220px;
+  border-radius: 10px;
+}
+
+.descriptionQrCode {
+  font-size: 1.1rem;
+  text-align: center;
+  max-width: 210px;
+  color: hsl(218, 44%, 22%);
+  font-family: "Outfit", sans-serif;
+  font-weight: 700;
+  padding-top: 1rem;
+}
+
+.informationQrCode {
+  font-size: 0.8rem;
+  max-width: 220px;
+  text-align: center;
+  color: hsl(220, 15%, 55%);
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+}
+
+.attribution {
+  font-size: 1.3rem;
+  color: hsl(218, 44%, 22%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 40px;
+  background: whitesmoke;
+}
