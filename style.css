@@ -8,7 +8,6 @@
 
 body {
   background-color: hsl(212, 45%, 89%);
-  /* font-size: 1rem; */
   min-height: 100vh;
 }
 
@@ -62,7 +61,8 @@ body {
   font-size: 1.3rem;
   color: hsl(218, 44%, 22%);
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  padding: 1rem;
   align-items: center;
   position: fixed;
   bottom: 0;
